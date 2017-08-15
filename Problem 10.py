@@ -1,0 +1,10 @@
+#Program to remove the characters which have odd index values of a given string
+
+string=input("Enter string: ")
+string1=''
+i=0
+for x in string:
+    if(i%2==0):
+        string1+=x
+    i+=1
+print(string1)
